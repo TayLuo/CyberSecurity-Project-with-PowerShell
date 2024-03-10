@@ -1,5 +1,5 @@
 # Cybersecurity-Project-with-PowerShell
-<h1>Hi, I'm Ke Tu! </h1>
+<h1>Hi, I'm Kevin Tu! </h1>
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
