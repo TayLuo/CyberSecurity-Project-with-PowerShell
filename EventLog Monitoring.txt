@@ -1,0 +1,31 @@
+# The following program monitors the failed attempted login in a domian environment. 
+# Modify the following program for your own production environment.
+# 
+# Here are the following code to help you to find out the string positions.
+#  			 foreach($X in 0..$EVENT.ReplacementStrings.Count){
+#      				 Write-Output "$X - $($event.ReplacementStrings[$X])"
+#    				}
+#
+# Run the program for the last hour and find out failed login attempt and take approciate action
+# 
+#
+$Events = Get-EventLog -LogName Security -EntryType Failure -After $(Get-Date).AddHours(-1)
+
+#Create an Arralylist, and store all the infor the arraylist
+
+$Log = [System.Collections.ArrayList]@()
+
+Foreach ($event in $Events){
+	$UserTrytoLogIn = $Event.ReplacementStrings[5]
+	$FromClientNameTried = $Event.ReplacementStrings[13]
+	$ClientNameIPFrom = $Event.ReplacementStrings[19]
+
+	$LogEntry = New-Object -TypeName PSObject
+	Add-Member -InputObject $LogEntry -MemberType NoteProperty -Name UserTrytoLogIn  -Value $UserTrytoLogIn 
+	Add-Member -InputObject $LogEntry -MemberType NoteProperty -NameFromClientNameTried -Value $FromClientNameTried
+	Add-Member -InputObject $LogEntry -MemberType NoteProperty -Name ClientNameIPFrom -Value $ClientNameIPFrom
+
+	# Stroe all the info in the arraylist
+	[void]$Log.Add($LogEntry)
+
+}
