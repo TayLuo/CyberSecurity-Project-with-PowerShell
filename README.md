@@ -4,7 +4,7 @@
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
 - <b>Manager Users and Groups with PowerShell</b>
-  - [PowerShell script to manage AD environment](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [PowerShell script to manage AD environment](https://github.com/TayLuo/Cybersecurity-Project-with-PowerShell/blob/main/Create%20ADUsers.txt))
 - <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
   - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
 - <b>PowerShell</b>
