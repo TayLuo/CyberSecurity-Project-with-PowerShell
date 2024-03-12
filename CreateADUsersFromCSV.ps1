@@ -1,4 +1,4 @@
-﻿# The script will creat many users once through powershell.
+﻿# The script will creat bulk users once through powershell.
 # For security reason, place password in a right location. 
 
 # Import the AD Module
