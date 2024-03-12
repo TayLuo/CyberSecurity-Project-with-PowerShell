@@ -13,7 +13,7 @@
 
 
 
-- 🔭 I’m currently working on a vulnerability management porject with Qulays
+- 🔭 I’m currently working on a vulnerability management project with Qulays
 - 🌱 I’m currently learning at Whatcomm Community College
 - 🤔 I’m looking for help with getting an Cybersecurity Internship
 - 📫 How to reach me: tuke0513@gmail.com
