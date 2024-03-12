@@ -1,5 +1,5 @@
 ﻿
-# Make sure to replace "OU=Domain Users,OU=learningad,DC=instructor,DC=com" with    newthe correct DN of your OU, 
+# Make sure to replace "OU=Domain Users,OU=learningad,DC=instructor,DC=com" with the correct DN of your OU, 
 and update the password file path ("C:\password.txt") to the actual location of your password file.
  
 # For security reason,the password stored in a file and located in the C: drive. 
