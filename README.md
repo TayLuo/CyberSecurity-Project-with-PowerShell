@@ -5,7 +5,7 @@
 
 - <b>Manager Users and Groups with PowerShell</b>
   - [PowerShell script to manage AD environment](https://github.com/TayLuo/Cybersecurity-Project-with-PowerShell/blob/main/Create%20ADUsers.txt)
-- <b>Create many users through powershell Script</b>
+- <b>Create bulk users through powershell Script</b>
   - [Create users through CSV file](https://github.com/TayLuo/Cybersecurity-Project-with-PowerShell/blob/main/CreateADUsersFromCSV.ps1)
  
 - <b>EventLogs</b>
