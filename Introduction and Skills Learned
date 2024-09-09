@@ -1,0 +1,12 @@
+Introduction:
+This project showcases a custom PowerShell script designed to automate and manage 
+tasks within an Active Directory (AD) environment. The script streamlines common 
+administrative tasks such as user creation, group management, and security policy 
+enforcement. With this project, I’ve demonstrated how to efficiently manage a large 
+AD infrastructure, minimizing manual effort while maintaining security best practices.
+
+Skills Learned:
+Active Directory (AD) administration
+PowerShell scripting and automation
+Group Policy and user management
+Task scheduling and automation in Windows
