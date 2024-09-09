@@ -1,5 +1,5 @@
 # Cybersecurity-Project-with-PowerShell
-- [Introduction]()
+- [Introduction](https://github.com/TayLuo/PowerShell-Script-for-Creating-Users/blob/main/Introduction%20and%20Skills%20Learned)
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
